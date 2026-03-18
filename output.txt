@@ -1,0 +1,70 @@
+D:\python\python.exe D:\CatDog\CatDogResNet.py 
+Setting up a new session...
+tensor([[-0.3224,  0.0413]], device='cuda:0', grad_fn=<AddmmBackward0>)
+126
+D:\CatDog\CatDogResNet.py:111: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  lr_sche.step()
+[1,   100] loss: 0.677, lr: 0.001000
+Accuracy of the network on the test images: 63.37 %
+[2,   100] loss: 0.648, lr: 0.001000
+Accuracy of the network on the test images: 57.83 %
+[3,   100] loss: 0.636, lr: 0.001000
+Accuracy of the network on the test images: 65.84 %
+[4,   100] loss: 0.617, lr: 0.001000
+Accuracy of the network on the test images: 63.77 %
+[5,   100] loss: 0.559, lr: 0.000100
+Accuracy of the network on the test images: 73.70 %
+[6,   100] loss: 0.530, lr: 0.000100
+Accuracy of the network on the test images: 71.97 %
+[7,   100] loss: 0.514, lr: 0.000100
+Accuracy of the network on the test images: 76.92 %
+[8,   100] loss: 0.493, lr: 0.000100
+Accuracy of the network on the test images: 78.79 %
+[9,   100] loss: 0.473, lr: 0.000100
+Accuracy of the network on the test images: 77.46 %
+[10,   100] loss: 0.446, lr: 0.000010
+Accuracy of the network on the test images: 80.43 %
+[11,   100] loss: 0.430, lr: 0.000010
+Accuracy of the network on the test images: 82.30 %
+[12,   100] loss: 0.427, lr: 0.000010
+Accuracy of the network on the test images: 82.40 %
+[13,   100] loss: 0.428, lr: 0.000010
+Accuracy of the network on the test images: 82.90 %
+[14,   100] loss: 0.424, lr: 0.000010
+Accuracy of the network on the test images: 83.29 %
+[15,   100] loss: 0.408, lr: 0.000001
+Accuracy of the network on the test images: 83.98 %
+[16,   100] loss: 0.408, lr: 0.000001
+Accuracy of the network on the test images: 84.03 %
+[17,   100] loss: 0.410, lr: 0.000001
+Accuracy of the network on the test images: 83.69 %
+[18,   100] loss: 0.405, lr: 0.000001
+Accuracy of the network on the test images: 84.23 %
+[19,   100] loss: 0.404, lr: 0.000001
+Accuracy of the network on the test images: 83.93 %
+[20,   100] loss: 0.404, lr: 0.000000
+Accuracy of the network on the test images: 83.89 %
+[21,   100] loss: 0.406, lr: 0.000000
+Accuracy of the network on the test images: 83.79 %
+[22,   100] loss: 0.396, lr: 0.000000
+Accuracy of the network on the test images: 83.98 %
+[23,   100] loss: 0.403, lr: 0.000000
+Accuracy of the network on the test images: 83.89 %
+[24,   100] loss: 0.408, lr: 0.000000
+Accuracy of the network on the test images: 84.08 %
+[25,   100] loss: 0.401, lr: 0.000000
+Accuracy of the network on the test images: 84.18 %
+[26,   100] loss: 0.405, lr: 0.000000
+Accuracy of the network on the test images: 83.89 %
+[27,   100] loss: 0.415, lr: 0.000000
+Accuracy of the network on the test images: 83.84 %
+[28,   100] loss: 0.405, lr: 0.000000
+Accuracy of the network on the test images: 84.23 %
+[29,   100] loss: 0.408, lr: 0.000000
+Accuracy of the network on the test images: 83.98 %
+[30,   100] loss: 0.401, lr: 0.000000
+Accuracy of the network on the test images: 83.14 %
+Finished Training
+Final accuracy of the network on the test images: 83.14 %
+
+进程已结束，退出代码为 0
